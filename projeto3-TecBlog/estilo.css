@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+#container{
+    background: #f7b600;
+    padding: 15px;
+    height: 9rem;
+    text-align: center;
+}
+
+.logo-site, .link-cabecalho{
+    color: #4e4e4e;
+    padding: 10px;
+    font-size: 33px;
+}
+.branco{
+    color: white;
+}
+.link-cabecalho{
+    font-size: 1.6rem;
+    left: 284px;
+}
+a:link,a:visited{
+
+    padding: 0.4rem 1rem;
+    color: white;
+    text-decoration:none;
+}
+a:hover{
+    color: #f7b600;
+    background-color: white;
+}
