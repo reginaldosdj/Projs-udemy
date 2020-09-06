@@ -10,32 +10,140 @@ body{
     background: #e6e6e6;
 }
 
-#container{
+/*Formatações do cabeçalho do site*/
+#header {
     background: #f7b600;
     padding: 15px;
     height: 9rem;
     text-align: center;
 }
 
-.logo-site, .link-cabecalho{
+.logo-white
+{
+    color: white;
+}
+
+.logo, #link-cabecalho
+{
     color: #4e4e4e;
     padding: 10px;
     font-size: 33px;
 }
-.branco{
-    color: white;
+/*Fim cabeçalho do site*/
+
+
+/*Formatações nas postagens das notícias*/
+
+#principal
+{
+    
+    width: 920px;
+    margin: 0 auto;
 }
-.link-cabecalho{
+.area-lateral{
+    margin-top: 15px;
+    
+}
+.area-postagens
+{ 
+    margin-top: 15px;
+    width: 660px;
+    float: left;
+}
+.postagem h2{
+    color: #f7b600;
+}
+
+.data-postagem
+{
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.postagem
+{
+padding: 20px;
+margin-bottom: 20px;
+background: white;
+}
+.area-lateral
+{
+    width: 240px;
+    float: right;
+    
+}
+/*Fim das formatações nas postagens das nóticias*/
+
+
+/*Ínicio Formatação postagem lateral*/
+
+.conteudo-lateral 
+{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.conteudo-lateral h3{
+    background: #ccc;
+    color: #565656;
+    padding: 5px;
+}
+
+.postagem-lateral{
+font-size: 0.8em;
+padding: 5px;
+}
+
+/*Fim formatação postagem lateral*/
+
+/* Formatação Rodapé */
+
+.rodape{
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    background:#ccc;
+}
+
+/* Fim Rodapé */
+
+
+/*Formatação dos links*/
+
+#link-cabecalho{
     font-size: 1.6rem;
     left: 284px;
 }
-a:link,a:visited{
+a
+{
+    text-decoration: none;
+}
 
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/*formatação link cabeçalho*/
+#link-cabecalho a:link, #link-cabecalho a:visited{
     padding: 0.4rem 1rem;
     color: white;
-    text-decoration:none;
+
 }
-a:hover{
+
+#link-cabecalho a:hover
+{
+    text-decoration: none;
     color: #f7b600;
     background-color: white;
 }
+/*Fim formatação link cabeçalho*/
+
+/*Fim formatação Link*/
